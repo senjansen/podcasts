@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+    <title>Podcast</title>
+  </head>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="home" class="col-8">
+				<!-- menu -->
+				<div class="menu py-3">
+					<nav class="navbar navbar-expand-lg navbar-light p-0">
+						<a class="navbar-brand" href="#"><i class="fas fa-bars"></i></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						  <div class="navbar-nav mr-auto">
+							<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+							<a class="nav-item nav-link" href="#">Popular</a>
+							<a class="nav-item nav-link" href="#">Search</a>
+							<a class="nav-item nav-link" href="#">Podcasters</a>
+						  </div>
+						  <div class="notification">
+							<i class="far fa-bell"></i>
+						  </div>
+						</div>
+					</nav>
+				</div>
+				<!-- end of menu -->
+				<!-- header podcast -->
+				<div id="header-podcast" class="mt-5">
+					<div class="row">
+						<div class="col">
+							<div class="input-group">
+								<div class="input-group-prepend">
+								  <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+								</div>
+								<input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+							</div>
+							<div class="row mt-3">
+								<div class="col">
+									<button type="button" class="btn btn-primary btn-block text-left">
+										online<br>
+										<span class="font-weight-bold">217 podcasts</span>
+									</button>
+								</div>
+								<div class="col">
+									<button type="button" class="btn btn-warning btn-block">
+										<span class="font-weight-bold">Trends</span>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="player">
+								<div id="info" class="info">
+									<span class="artist">Podcast Name</span>
+									<span class="name">Leulla Garner</span>
+									<div class="progress-bar">
+										<div class="bar"></div>
+									</div>
+								</div>
+								<div id="control-panel" class="control-panel">
+									<div class="album-art"></div>
+									<div class="controls">
+										<div class="prev"></div>
+										<div id="play" class="play"></div>
+										<div class="next"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end of header podcast -->
+				<!-- personal board -->
+				<div id="personal-board">
+					<div class="row my-5">
+						<div class="col">
+							<h4>Personal Board</h4>
+							<div class="row mt-3">
+								<div class="col">
+									<div class="box-1">
+										<img src="./assets//images/water.jpeg" alt="water" style="width:100%; border-radius: 0.5rem;">
+										<div class="bottom-left">How to <b>meditate</b></div>
+									</div>
+								</div>
+								<div class="col">
+									<div class="box-1">
+										<img src="./assets//images/city.jpeg" alt="city" style="width:100%; border-radius: 0.5rem;">
+										<div class="bottom-left">History of <b>Architecture</b></div>
+									</div>
+								</div>
+							</div>
+							<div class="row mt-3">
+								<div class="col-3">
+									<div class="box-1">
+										<img src="./assets//images/chair.jpeg" alt="chair" style="width:100%; border-radius: 0.5rem; min-height: 90px">
+										<div class="bottom-left font-weight-bold">Inspiration</div>
+									</div>
+								</div>
+								<div class="col-3">
+									<div class="box-1">
+										<img src="./assets//images/fashion.jpeg" alt="fashion" style="width:100%; border-radius: 0.5rem; min-height: 90px;">
+										<div class="bottom-left font-weight-bold">Fashion</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end of personal board -->
+			</div>
+
+			<!-- profile -->
+			<div id="profile" class="col-4">
+				<div class="row">
+					<div class="col">
+						<div class="profile-picture mt-5">
+							<img src="./assets/images/profile.jpeg" alt="profile" width="200">
+						</div>
+						<div class="name my-5">
+							<p class="mb-0">Agnes Obrien</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row info mt-3">
+					<div class="col">
+						<i class="fas fa-user-friends icon"></i>
+						<span class="info-name">Following podcasters</span>
+						<p class="amount">14 podcasters</p>
+					</div>
+				</div>
+				<div class="row info mt-3">
+					<div class="col">
+						<i class="fas fa-user-plus"></i>
+						<span class="info-name">Saved podcast</span>
+						<p class="amount">14 podcasters</p>
+					</div>
+				</div>
+				<div class="row info mt-3">
+					<div class="col">
+						<i class="fas fa-history"></i>
+						<span class="info-name">History</span>
+					</div>
+				</div>
+
+				<div class="row balance mt-5">
+					<div class="col">
+						<span class="balance-name">Balance</span>
+						<span class="float-right balance-amount">$ 800</span>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<a href="#" style="color: #ff7979;">add funds</a>
+					</div>
+				</div>
+			</div>
+			<!-- end of profile -->
+		</div>
+	</div>
+
+	<!-- script player -->
+	<script>
+	console.clear();
+
+	class musicPlayer {
+		constructor() {
+			this.play = this.play.bind(this);
+			this.playBtn = document.getElementById('play');
+			this.playBtn.addEventListener('click', this.play);
+			this.controlPanel = document.getElementById('control-panel');
+			this.infoBar = document.getElementById('info');
+		}
+
+		play() {
+			let controlPanelObj = this.controlPanel,
+			infoBarObj = this.infoBar
+			Array.from(controlPanelObj.classList).find(function(element){
+						return element !== "active" ? controlPanelObj.classList.add('active') : 		controlPanelObj.classList.remove('active');
+				});
+			
+			Array.from(infoBarObj.classList).find(function(element){
+						return element !== "active" ? infoBarObj.classList.add('active') : 		infoBarObj.classList.remove('active');
+				});
+		}
+	}
+
+	const newMusicplayer = new musicPlayer();
+	</script>
+	<!-- end of script player -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+  </body>
+</html>
